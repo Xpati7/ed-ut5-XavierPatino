@@ -27,6 +27,7 @@ public class Numerosecreto {
 
             } else {
                 System.out.println("Mala suerte. No has acertado el número secreto");   // Cuando el número introducido sea menor a 0 te rendirás.
+                System.out.print("¡No has conseguido acertar el número :(!");           // Editado por Marcos
                 numero = sc.nextInt();
             }
 
@@ -37,6 +38,7 @@ public class Numerosecreto {
 
 
         System.out.print("Enhorabuena. El número secreto era " + secreto);          // Una vez adivinado el número secreto
+        System.out.print("¡Has conseguido acertar el número :)!");                  // Editado por Marcos
     }
 
 
